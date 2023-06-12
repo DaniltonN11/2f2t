@@ -7,6 +7,35 @@
     width: 100;
     height: 60px;
     background-color: pink;
+    position: sticky;
+    top: 0;
+}
+menu a{
+    display: block;
+    padding: 30px;
+    color: azure;
+}
+
+menu a:hover{
+
+    color: rgb(0, 65, 65);
+}
+
+.logo{
+    display: inline-block;
+    color: antiquewhite;
+}
+#logo{
+    width: 10vh;
+    height: 5px;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: blue;
+    overflow: hidden;
 }
 
 .conteudo{
@@ -22,6 +51,14 @@
 .img-mobile{
     width: 50px;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
 
 @media screen and (min-width: 768px) {
 
