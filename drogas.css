@@ -1,12 +1,18 @@
 @import 'menu.css';
 
+body{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
 .conteudo{
     width: 100%;
 }
 .rodape{
     width: 100%;
     text-align: center;
-    background: rgb(7, 0, 105);
+    background: rgb(105, 0, 0);
+    color: white;
 }
 .img-mobile{
     width: 100%;
@@ -14,8 +20,8 @@
 }
 @media screen and (min-width:768px) {
     .menu{
-        height: 120px;
-        background-color: rgb(0, 8, 124);
+        height: 149px;
+        background-color: rgb(124, 0, 0);
     }
     .conteudo-home{
         display: flex;
@@ -24,8 +30,8 @@
 }
 @media screen and (min-width:1288px) {
     .menu{
-        height: 120px;
-        background-color: rgb(0, 4, 221);
+        height: 149px;
+        background-color: rgb(221, 0, 0);
     }
     
 }
