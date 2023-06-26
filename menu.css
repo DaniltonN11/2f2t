@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 :root{
     --branco: #f9f9f9;
-    --preto: #1f1f21;
-    --cinza: #877979;
+    --preto: #000000;
+    --cinza: #252525;
+    --blue: rgb(255, 0, 0);
 } /* variables*/
 
 /* Reset */
@@ -26,7 +27,7 @@ ul{
 /* Cabeçalho */
 .header{
     background-color: var(--preto);
-    box-shadow: 1px 1px 5px 0px var(--cinza);
+    box-shadow: 1px 1px 5px 0px #890000;
     position: sticky;
     top: 0;
     width: 100%;
@@ -72,7 +73,7 @@ ul{
 }
 
 .hamb-line {
-    background: var(--branco);
+    background: var(--blue);
     display: block;
     height: 2px;
     position: relative;
@@ -82,7 +83,7 @@ ul{
 
 .hamb-line::before,
 .hamb-line::after{
-    background: var(--branco);
+    background: var(--blue);
     content: '';
     display: block;
     height: 100%;
@@ -92,9 +93,11 @@ ul{
 }
 .hamb-line::before{
     top: 5px;
+    background-color: var(--blue);
 }
 .hamb-line::after{
     top: -5px;
+    background-color: var(--blue); 
 }
 .side-menu {
     display: none;
@@ -135,7 +138,7 @@ ul{
     }
     .menu a:hover{
         background-color: transparent;
-        color: var(--cinza);
+        color: rgb(27, 27, 27);
 
     }
 
